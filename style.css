@@ -1,0 +1,57 @@
+body {
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+h1 {
+    margin-left: 100px;
+}
+
+.border {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px 100px;
+}
+
+.container {
+    position: relative;
+}
+
+.blue {
+    display: inline-block;
+    border: 1px solid black;
+    width: 30%;
+    margin: 10px 5px;
+    text-align: center;
+    background-color: #2d5dcc;
+    color: white;
+}
+
+.pink {
+    display: inline-block;
+    border: 1px solid black;   
+    width: 30%;
+    margin: 10px 5px;
+    text-align: center;
+}
+
+.green {
+    display: inline-block;
+    border: 1px solid black;   
+    width: 30%;
+    margin: 10px 5px;
+    text-align: center;
+}
+
+.beige {
+    display: block;
+    border: 1px solid black;   
+    width: 30%;
+    margin: 10px 5px;
+    text-align: center;
+}
+
+#fonts {
+    font-family: ;
+}
