@@ -4,7 +4,7 @@ body {
     font-family: sans-serif;
 }
 
-h1 {
+header {
     margin-left: 100px;
 }
 
@@ -18,40 +18,61 @@ h1 {
     position: relative;
 }
 
-.blue {
+.color-rows-1 {
     display: inline-block;
     border: 1px solid black;
     width: 30%;
     margin: 10px 5px;
     text-align: center;
+}
+
+.color-rows-2 {
+    display: block;
+    border: 1px solid black;
+    width: 30%;
+    margin: 10px 5px;
+    text-align: center;
+}
+
+#blue {
     background-color: #2d5dcc;
     color: white;
 }
 
-.pink {
-    display: inline-block;
-    border: 1px solid black;   
-    width: 30%;
-    margin: 10px 5px;
-    text-align: center;
+#pink {
+    background-color: #d957d9;
 }
 
-.green {
-    display: inline-block;
-    border: 1px solid black;   
-    width: 30%;
-    margin: 10px 5px;
-    text-align: center;
+#green {
+    background-color: #4fe0b0;    
 }
 
-.beige {
-    display: block;
-    border: 1px solid black;   
-    width: 30%;
-    margin: 10px 5px;
-    text-align: center;
+#beige {
+    background-color: #efd9ca;
 }
 
 #fonts {
-    font-family: ;
+    position: relative;
+}
+
+#fonts-rows-1 {
+    display: inline-block;
+}
+
+#fonts-rows-2 {
+    display: block;
+}
+
+.scpro {
+    font-family: source code pro, 'Courier New', Courier, monospace;
+    width: 45%;
+}
+
+.nunito {
+    font-family: nunito, 'Courier New', Courier, monospace;
+    width: 45%;
+}
+
+.poppins {
+    font-family: poppins, 'Courier New', Courier, monospace;
 }

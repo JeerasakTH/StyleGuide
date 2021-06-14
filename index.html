@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Style Guide</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;1,300&family=Source+Code+Pro:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;1,300&family=Poppins:ital,wght@0,300;0,400;1,300&family=Source+Code+Pro:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -15,19 +18,19 @@
         <section id="colors" class="border">
             <h2>colors</h2>
             <div class="container">
-                <div class="blue">
+                <div id="blue" class="color-rows-1">
                     <h4>Cool Blue</h4>
                     <h4>#2d5dcc</h4>
                 </div>
-                <div class="pink">
+                <div id="pink" class="color-rows-1">
                     <h4>Pink</h4>
                     <h4>#d957d9</h4>
                 </div>
-                <div class="green">
+                <div id="green" class="color-rows-1">
                     <h4>Mint Green</h4>
                     <h4>#4fe0b0</h4>
                 </div>
-                <div class="beige">
+                <div id="beige" class="color-rows-2">
                     <h4>Beige</h4>
                     <h4>#efd9ca</h4>
                 </div>
@@ -35,35 +38,41 @@
         </section>
         <section id="fonts" class="border">
             <h2>Fonts</h2>
-            <h3><u>Source Code Pro</u></h3>
-            <p>The quick brown fox jumps over the lazy dog.</p>
-            <p><strong>The quick brown fox jumps over the lazy dog.</strong></p>
-            <p><em>The quick brown fox jumps over the lazy dog.</em></p>
-            <h3><u>Nunito Sans</u></h3>
-            <p>The quick brown fox jumps over the lazy dog.</p>
-            <p><strong>The quick brown fox jumps over the lazy dog.</strong></p>
-            <p><em>The quick brown fox jumps over the lazy dog.</em></p>
-            <h3><u>Poppins</u></h3>
-            <p>The quick brown fox jumps over the lazy dog.</p>
-            <p><strong>The quick brown fox jumps over the lazy dog.</strong></p>
-            <p><em>The quick brown fox jumps over the lazy dog.</em></p>
+            <div id="fonts-rows-1" class="scpro">
+                <h3><u>Source Code Pro</u></h3>
+                <p>The quick brown fox jumps over the lazy dog.</p>
+                <p><strong>The quick brown fox jumps over the lazy dog.</strong></p>
+                <p><em>The quick brown fox jumps over the lazy dog.</em></p>
+            </div>
+            <div id="fonts-rows-1" class="nunito">
+                <h3><u>Nunito Sans</u></h3>
+                <p>The quick brown fox jumps over the lazy dog.</p>
+                <p><strong>The quick brown fox jumps over the lazy dog.</strong></p>
+                <p><em>The quick brown fox jumps over the lazy dog.</em></p>
+            </div>
+            <div id="fonts-rows-2" class="poppins">
+                <h3><u>Poppins</u></h3>
+                <p>The quick brown fox jumps over the lazy dog.</p>
+                <p><strong>The quick brown fox jumps over the lazy dog.</strong></p>
+                <p><em>The quick brown fox jumps over the lazy dog.</em></p>
+            </div>
         </section>
         <section id="text" class="border">
             <h2>Text Styles</h2>
             <h1>H1: Main page heading</h1>
-            <ul class="nunito">
+            <ul class="h1">
                 <li>Font-Weight: 700 (bold)</li>
                 <li>Font-size: 26px</li>
                 <li>Font-family: Nunito sans</li>
             </ul>
             <h2>H2: Subheading</h2>     
-            <ul class="poppins">
+            <ul class="h2">
                 <li>Font-Weight: 500</li>
                 <li>Font-size: 18px</li>
                 <li>Font-family: Poppins</li>
             </ul>     
             <p>P: Paragraph text</p>
-            <ul class="poppins">
+            <ul class="p">
                 <li>Font-Weight: 400 (regular)</li>
                 <li>Font-size: 14px</li>
                 <li>Font-family: Poppins</li>
